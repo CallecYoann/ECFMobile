@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:text=""
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="23dp"
+        android:id="@+id/titreRegate"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="DATE :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titreRegate"
+        android:layout_alignLeft="@+id/titreRegate"
+        android:layout_alignStart="@+id/titreRegate"
+        android:layout_marginTop="50dp"
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:text="DISTANCE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_marginTop="44dp"
+        android:id="@+id/textView6" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/distanceRegate"
+        android:layout_alignBaseline="@+id/textView6"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_toRightOf="@+id/textView6"
+        android:layout_toEndOf="@+id/textView6"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/commissaireRegate"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_toRightOf="@+id/distanceRegate"
+        android:layout_toEndOf="@+id/distanceRegate" />
+
+    <TextView
+        android:text="COMMISSAIRE :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+    <TextView
+        android:text=""
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/dateRegate"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_toRightOf="@+id/textView6"
+        android:layout_toEndOf="@+id/textView6" />
+
+    <Button
+        android:text="Resultat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/distanceRegate"
+        android:layout_alignRight="@+id/titreRegate"
+        android:layout_alignEnd="@+id/titreRegate"
+        android:layout_marginRight="21dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginTop="66dp"
+        android:id="@+id/ResultButton" />
+</RelativeLayout>
